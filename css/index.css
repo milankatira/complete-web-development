@@ -1,33 +1,56 @@
-
 p {
   font-weight: 100;
 }
 
 body {
   font-family: "Inconsolata", monospace;
-  background-color:#000000;
-  color:#bafff5;
+  background-color: #000000;
+  color: #bafff5;
 }
 
 .title {
   background-color: #004544;
-  color:#bafff5;
+  color: #bafff5;
   height: 80px;
   width: 100px;
-  
+
   border: 10px solid white;
-  
+
   border-radius: 20px;
   padding: 20px 50px 20px 50px;
   margin: 20px 50px 20px 50px;
   
-  text-align: left;
+  float: left;
 }
 
-.text  {
+.text {
   text-align: left;
   text-align: left;
   text-align: center;
   background-color: rgb(37, 90, 72);
   font-size: 80px;
+  
 }
+
+.text:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-size: 100px;
+}
+
+.title:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.title:active {
+ color: black;
+ background-color: green;
+}
+
+.title:visited {
+  color: black;
+  background-color: red;
+ }
