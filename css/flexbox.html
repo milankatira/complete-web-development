@@ -1,0 +1,52 @@
+3<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            height: 100%;
+            width: 100%;
+            border: 2px solid black;
+            display: flex;
+            margin-left: 5px;
+            margin-right: 5px;
+
+
+            /* flex-direction: row-reverse; */
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item {
+            width: 180px;
+            height: 180px;
+            background-color: rgb(149, 196, 167);
+            margin-left: 10px;
+            margin-right: 5px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 15px;
+            border: 1px solid green;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>flexbox in css</h1>
+    <div class="container">
+        <div class="item" id="item-1">first box</div>
+        <div class="item" id="item-2">second box</div>
+        <div class="item" id="item-3">third box</div>
+        <div class="item" id="item-4">fourth box</div>
+        <div class="item" id="item-5">fifth box</div>
+        <div class="item" id="item-6">sixth box</div>
+    </div>
+</body>
+
+</html>
